@@ -1,0 +1,77 @@
+/* colors: Light Grey #F8F8F8, orange: #F26F16, teal: #4aaaa5, grey: #777 */
+
+body {
+	background: url("../images/brick_bkgrd.jpg");
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #4aaaa5;
+  border-color: #4aaaa5;
+}
+
+.card {
+  margin-bottom: 1em;
+}
+/* navbar */
+.logo_img {
+  max-height: 100px;
+  width: auto;
+  margin-top: 1.8em;
+}
+
+.navbar {
+  max-height: 60px;
+  margin-top: 2em;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+  color: #4aaaa5;
+}
+
+/* about page */
+.about_main {
+ margin-top: 5em;
+ margin-bottom: 3em;
+}
+.about_img {
+  max-height: 250px;
+  width: auto;
+  margin: 1em;
+}
+
+.about_text {
+  line-height: 1.8;
+}
+
+/* connect block */
+.connect_icons_sidebar {
+  max-width: 25%;
+  max-height: 200px;
+  margin: 5em 1em 0 1em;
+  padding-top: 1em;
+}
+.connect_icons_sidebar h2 {
+  max-width: 300px;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  line-height: 22px;
+  border-bottom: 1px solid #4aaaa5;
+}
+.connect_icons_sidebar img {
+  width: 60px;
+  height: 60px;
+  margin-top: 8px;
+  margin-right: 5px;
+}
+
+
+footer {
+ padding: 30px 0;
+   clear: both;
+   font-size: 12px;
+   color: #fff;
+   text-align: center;
+ background-color: #777;
+ border-top: 8px solid #4aaaa5;
+}
